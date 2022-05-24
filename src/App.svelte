@@ -222,7 +222,7 @@
 		}
 		.dynamic-text{
 			position: absolute;
-			top: 385px;
+			top: 390px;
 			left: 20px;
 		}
 		.bar{
