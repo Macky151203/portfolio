@@ -5,8 +5,9 @@
     {#if showwork}
     <div class="backdrop" on:click>
         <div class="modal">
-            <p>I havent made lots of projects so far.... made a todo list and this website and the link for the todo list is given below</p>
+            <p>I havent made lots of projects so far.... made a todo list and this website and the link for the todo list is given below. And also my blog link is given below as well</p>
             <a href="https://manageday.vercel.app/" target="_blank">Todo list</a>
+            <a href="https://subro.hashnode.dev/first-blog" target="_blank">My blog</a>
         </div>
     </div>
     {/if}
