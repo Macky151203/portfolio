@@ -5,9 +5,9 @@
     {#if showabout}
     <div class="backdrop" on:click>
         <div class="modal">
-            <p>So this is subramaniyan srinivasan....</p>
+            <p>So this is subramaniyan srinivasan(also vishal)....</p>
             <p>I am a 1st yr student in SASTRA university and i am learning web development</p>
-            <p>My github and linked inprofile is given below :) , make sure to check it out</p>
+            <p>My github and linkedin profile is given below :) , make sure to check it out</p>
         </div>
     </div>
     {/if}
