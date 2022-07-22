@@ -1,42 +1,56 @@
 <script>
-    export let showwork=false;
+
 </script>
 <main>
-    {#if showwork}
-    <div class="backdrop" on:click>
-        <div class="modal">
-            <p>I havent made lots of projects so far.... made a todo list and this website and the link for the todo list is given below. And also my blog link is given below as well</p>
-            <a href="https://manageday.vercel.app/" target="_blank">Todo list</a><br>
-            <a href="https://subro.hashnode.dev/first-blog" target="_blank">My blog</a>
+    <div class="body">
+        <div class="pc">
+            <div class="partition" />
         </div>
+
+        <div class="ci">
+            SCROLL DOWN
+        </div>
+
+
+    <div class="cont">
+        <div class="d1"></div>
     </div>
-    {/if}
+
+
+    <div class="pc">
+		<div class="partition" />
+	</div>
+
+
+    <div class="cont">
+        <div class="d2"></div>
+    </div>
+</div>
 </main>
 <style>
-    .backdrop{
-        width: 100%;
-        height: 100%;
-        position: fixed;
-        background-color: rgba(0, 0, 0, 0.47);
-
-
-    }
-    .modal{ 
-        padding: 15px;
-        border-radius: 20px;
-        max-width: 500px;
-        margin: 10% auto;
+    .ci{
         text-align: center;
-        background: white;
-        box-shadow: 2px 3px 2px 3px rgb(229, 223, 223);
-        z-index: 2;
+        color: green;
+        margin: 20px;
     }
-    p{
-        font-family: fantasy;
+    .partition {
+		width: 70vw;
+		height: 1px;
+		background-color: grey;
+	}
+	.pc {
+		display: flex;
+		justify-content: center;
+	}
+    .cont{
+        background-color: black;
+        /* display: flex;
+        justify-content: center; */
+        padding: 50px;
+        width: 90vw;
+        height: 200px;
     }
-    @media screen and (max-width:540px){
-        .modal{
-            margin: 20px;
-        }
+    .body{
+        background-color: black;
     }
 </style>
